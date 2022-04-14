@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Some app",
+  "version": "1.0.0",
+  "description": "チュートリアル用アプリ",
+  "permissions": ["tabs", "activeTab"],
+  "action": {
+    "default_icon": "popup16.png",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "128": "icon.png"
+  }
+}
