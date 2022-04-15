@@ -8,9 +8,6 @@
     "build": "webpack",
     "start": "webpack serve"
   },
-  "engines": {
-    "node": "^16.3.0"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
